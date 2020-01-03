@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="float-sm-left" id="infotext">
+        <img src="https://i.imgur.com/t55Wrhu.jpg" class ="rounded-circle" style="width:330px;height:330px;">
+        <p id="name">Jacob Marshall</p>
+        <div id = "info">
+            <hr>
+            <p id="email">Email: <a href="mailto:marshingjay@ku.edu">marshingjay@ku.edu</a></p>
+            <p id="twitter">Twitter:<a href = "https://twitter.com/marshingjay">@marshingjay</a></p>
+            <p id="resume">Resume: <a id = "greenlink" href = "https://drive.google.com/file/d/1fXXWw0i-ovDcn8bcHOwwYfA8hZtWh-Zz/view?usp=sharing">here</a></p>
+            <p id="pubs"></p>  
+            <p id="address">2335 Irving Hill Rd, Room 149<br> Lawrence, KS 66045</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.766700801058!2d-95.2663286839302!3d38.95215785131828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bf68d4b4175335%3A0xb8bf5cee04eac05b!2sNichols%20Hall!5e0!3m2!1sen!2sus!4v1569302778962!5m2!1sen!2sus" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <br>
+            <br>
+            <img src="https://i.imgur.com/TqFcME9.png" style="width:200px;">
+            <br>
+            <br>
+            <img src="https://i.imgur.com/SpWpM1X.png" style="width:200px;">
+        </div>
+    </div>
+    </div>
+    <br>
+    <div class="wrapper" id = "bodytext">
+        <h3>About me</h3>
+        <hr>
+        <p>I am an undergraduate student at the <a href = "https://ku.edu">University of Kansas</a> studying Computer Science. 
+            I am currently mentored by <a href ="https://ittc.ku.edu/~drew/">Dr. Drew Davidson</a> as part of the <a href="http://ittc.ku.edu/padlock/">Padlock Research Laboratory</a> and am conducting research on drone sensor input spoofing attacks. 
+            I will be graduating from the University of Kansas in May 2020 and will commence my postgraduate studies thereafter at __TBA__. 
+            My current interests include algorithms and security, and I hope to continue to learn new things each and every day.
+            In my free time I enjoy playing comptetive <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering">Magic: The Gathering</a>, drinking cider, and spending time outdoors. 
+        </p>
+        <br>
+        <br>
+        <h3>Research</h3>
+        <h5>Sensor Input Spoofing in UAV Control Software</h5>
+        <p>Current UAV control software (ArduPilot) is vulnerable to many different attacks in which an adversery is able to subtly influence the environment. 
+            Using SITL while running ArduPilot's source code, we were able to verify several of these vulnerabilities and developed attack models to demonstrate that a malicious party could disrupt, crash, or even gain some amount of control of a drone with the proper knowledge of ArduPilot and control of certain environmental factors. 
+            This flaw boils down to a lack of sensor fusion between sensors of different types. 
+            That is, sensors on the drone don't cross-validate input between orthagonal sensors if that input is acceptable, and as a result are vulnerable to environment-based attacks against certain sensors. 
+            We suggest new threat models be introduced that account for adverseries with this type of control and suggest software be developed that mitigate these types of attacks.
+        </p>
+        <img src="https://i.imgur.com/PzLuUUR.png" style="width:300px;height:300px;" >
+        <img src="https://i.imgur.com/ejBxTWS.jpg" style="height:300px;" >
+        <br>
+        <br>
+        <h3>Recent Activities</h3>
+        <h5>Oct 26, 2019: Gave talk at CANSec 2019 Workshop - <i>Characterizing Sensor Input Spoofing Attacks in UAV Control Software</i></h5>
+    </div>
+
+<div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

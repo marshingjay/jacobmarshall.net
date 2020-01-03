@@ -1,0 +1,55 @@
+
+
+#infotext{
+    color: grey;
+    font-family: "Cambria";
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+
+}
+
+html{
+    margin: 15px;
+}
+
+
+.wrapper{
+    align-items: stretch;
+}
+
+#bodytext{
+    color: grey;
+    font-family: "Cambria";
+    margin-top: 100px;
+    transition: margin-left .5s;
+}
+
+
+
+#name{
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+#email{
+    color: lightcoral;
+}
+
+#twitter{
+    color: lightblue;
+}
+
+#resume{
+    color: lightgreen;
+}
+
+#greenlink a:link{
+    color:lightgreen;
+}
+
+#info{
+   text-align: center 
+}
