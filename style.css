@@ -4,7 +4,8 @@
     color: grey;
     font-family: "Cambria";
     text-align: center;
-    margin-top: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-size: 15px;
     letter-spacing: 1px;
     padding-right: 40px;
@@ -20,12 +21,68 @@ html{
     align-items: stretch;
 }
 
+.main {
+    margin-left: 410px;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 400px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    align-items: stretch;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    font-family: "Cambria";
+    background-color:white;
+    overflow: hidden;
+    margin-left: 410px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: slategray;
+    font-style: italic;
+    text-decoration: none;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: lightcoral;
+  }
+
 #bodytext{
     color: grey;
     font-family: "Cambria";
-    margin-top: 100px;
+    margin-top: 20px;
     transition: margin-left .5s;
+ 
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-style: italic;
+    text-decoration: none !important;
+}
+
 
 
 
@@ -60,4 +117,8 @@ html{
 
 #LinkedIn{
     color:lightsteelblue;
+}
+
+#recent-activities{
+    font-size: 18px;
 }

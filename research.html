@@ -6,9 +6,9 @@
 </head>
 <body>
     <div class = "topnav" id = "topbar">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
-        <a href="research.html">Research</a>
+        <a class="active" href="research.html">Research</a>
         <a href="contact.html">Contact</a>
     </div>
     <hr>
@@ -35,19 +35,19 @@
     </div>
     <br>
     <div class="main" id = "bodytext">
-        <h3 style="font-style: italic;">About me</h3>
-        <p style="text-indent: 50px;">Hi, my name is Jacob Marshall. I am a researcher, a software engineer, and an undergraduate student at the <a href = "https://ku.edu">University of Kansas</a>. 
-            I am currently mentored and employed by <a href ="https://ittc.ku.edu/~drew/">Dr. Drew Davidson</a> as part of the <a href="http://ittc.ku.edu/padlock/">Padlock Research Laboratory</a> and am conducting research on drone sensor input spoofing attacks. 
-            I will be graduating from the University of Kansas in May 2020 and will commence my postgraduate studies in the fall in order to pursue a PhD in Computer Science. I don't like to box myself in 
-            to just one area of Computer Science, as I find most of the problems within Computer Science interesting. However, if I had to pick my favorite areas those would currently be Security, HCI, and Robotics.
-            My long-term goals aren't set in stone yet, I find research fascinating but could also see myself moving to the start-up sphere after finishing graduate school if a good oppurtunity preseneted itself.
-            When I'm not in front of a computer screen, the things I enjoy include running, hiking, playing Magic: the Gathering, and spending time with family and friends.<br><br>
-            If you'd like to learn more about my current/past projects as well as my research, you can do that by clicking on the links in the navbar above. 
+        
+        <h3 style="font-style: italic;">Current Research</h3>
+        <h5 style="font-style: italic;">Sensor Input Spoofing in UAV Control Software</h5>
+        <p style="text-indent: 50px;">Current UAV control software (in this research, ArduPilot) is vulnerable to many different attacks in which an adversary is able to subtly influence the environment. By gaining control over some aspect of the environment, the adversary could influence one of the many different environmental sensors on a UAV. Through SITL simulation running ArduPilot source, we&#146;ve been able to verify that not only are these attacks possible, but that they have the potential to cause catastrophic failure. Our attack models show that if a malicious actor had proper knowledge of ArduPilot and control over certain environmental factors, they could crash, disrupt, or even gain some amount of control over a UAV. 
+            This vulnerability boils down to a lack of sensor fusion between orthogonal sensors. That is, the sensors on a UAV aren&#146;t cross-validating input between sensors of a different type if the given input is acceptable, and as a result are vulnerable to receiving malicious input. We strongly suggest that new threat models be introduced that account for adversaries with this type of environmental control and are currently working on software and analysis solutions in order to help mitigate this model of attack.
+            
         </p>
+        <img src="https://i.imgur.com/PzLuUUR.png" style="width:300px;height:300px;" >
+        <img src="https://i.imgur.com/ejBxTWS.jpg" style="height:300px;" >
         <br>
         <br>
-        <h3 style="font-style: italic;">Recent Activities</h3>
-        <p id="recent-activities">Oct 26, 2019: Gave talk at CANSec 2019 Workshop - <i>Characterizing Sensor Input Spoofing Attacks in UAV Control Software</i></p>
+        <h3 style="font-style: italic;">Past Research</h3>
+        <p>Nothing here yet...</p>
     </div>
 
 <div>
