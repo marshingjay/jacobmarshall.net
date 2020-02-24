@@ -26,12 +26,12 @@ html{
 }
 
 .sidenav {
-    min-height: 100%;
-    overflow-y:hidden;
+    overflow-y:auto;
     width: 400px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
+    bottom: 0;
     left: 0;
     background-color: white; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
