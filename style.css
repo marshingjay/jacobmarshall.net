@@ -12,9 +12,6 @@
 
 }
 
-html{
-    margin: 15px;
-}
 
 
 .wrapper{
@@ -69,12 +66,19 @@ html{
     color: lightcoral;
   }
 
+body{
+    margin: 15px;
+    position: relative;
+    min-height: 100vh;
+}
+
 #bodytext{
     color: grey;
     font-family: "Cambria";
     margin-top: 20px;
     transition: margin-left .5s;
- 
+    margin-right: 40px;
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -97,29 +101,41 @@ a:hover {
 }
 
 #twitter{
-    color: lightblue;
+    color: lightcoral;
 }
 
 #resume{
-    color: lightgreen;
+    color: lightcoral;
 }
 
-#greenlink a:link{
-    color:lightgreen;
-}
 
 #info{
    text-align: center;
 }
 
 #github{
-    color:lightseagreen;
+    color:lightcoral;
 }
 
 #LinkedIn{
-    color:lightsteelblue;
+    color:lightcoral;
 }
 
 #recent-activities{
     font-size: 18px;
+}
+
+.footer-image{
+    
+    overflow: hidden;
+    /* background-repeat: no-repeat; */
+    /* background-position: top left; */
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.footer-image > img {
+    margin-left: 400px;
 }
