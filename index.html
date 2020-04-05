@@ -1,85 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Jacob Marshall - Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-    <div class = "topnav" id = "topbar">
-        <a class="active" href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
-    </div>
-    <hr>
-    <div class = "sidenav" id="infotext">
-        <img src="https://i.imgur.com/t55Wrhu.jpg" class ="rounded-circle" style="width:330px;height:330px;">
-        <p><div id="name">Jacob Marshall</div>
-        <a id="email" href="mailto:marshingjay@ku.edu">marshingjay@ku.edu</a></p>
-        <div id = "info">
-            <hr>
-            <p>
-            <a  id="github" href="https://github.com/marshingjay">GitHub</a> /
-            <a id="LinkedIn" href="https://www.linkedin.com/in/jacob-m-454ba310a">LinkedIn</a> /
-            <a id="twitter" href = "https://twitter.com/marshingjay">Twitter</a> /
-            <a id="resume" href = "https://docs.google.com/document/d/1CnVcgqrraSVbHCmAPucVZSm7JXLwc3jph56vEuGokq0/edit?usp=sharing">Resume</a></p>
-            <p id="pubs"></p>  
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.766700801058!2d-95.2663286839302!3d38.95215785131828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bf68d4b4175335%3A0xb8bf5cee04eac05b!2sNichols%20Hall!5e0!3m2!1sen!2sus!4v1569302778962!5m2!1sen!2sus" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            
-            <p id="address">2335 Irving Hill Rd, Room 149<br> Lawrence, KS 66045</p>
-            <br>
-            <img src="https://i.imgur.com/TqFcME9.png" style="width:200px;">
-            <br>
-            <br>
-            <img src="https://i.imgur.com/SpWpM1X.png" style="width:200px;">
+
+    <head>
+        <meta charset="utf-8">
+       
+        <title>Jacob Marshall - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img id="banner" src="assets/banner.jpg">
+        <div class =navbar>
+            <a></a>
+            <a href="index.html">Home</a> &middot
+            <a href="blog.html">Blog</a> &middot
+            <a href="projects.html">Projects</a> &middot
+            <a href="research.html">Research</a> &middot
+            <a href="contact.html">Contact</a>
+            &middot / &middot
+            <a href="https://github.com/marshingjay">GitHub</a> &middot
+            <a href="https://www.linkedin.com/in/jacob-m-454ba310a">LinkedIn</a> &middot
+            <a href = "https://twitter.com/marshingjay">Twitter</a> &middot
+            <a href = "https://docs.google.com/document/d/1CnVcgqrraSVbHCmAPucVZSm7JXLwc3jph56vEuGokq0/edit?usp=sharing">Resume</a>
         </div>
-    </div>
-    <br>
-    <div class="main" id = "bodytext">
-        <h3 style="font-style: italic;">About Me</h3>
-        <p style="text-indent: 50px;">Hi, my name is Jacob Marshall. I am a researcher, a software engineer, and an undergraduate student at the <a href = "https://ku.edu">University of Kansas</a>. 
-            I am currently mentored and employed by <a href ="https://ittc.ku.edu/~drew/">Dr. Drew Davidson</a> as part of the <a href="http://ittc.ku.edu/padlock/">Padlock Research Laboratory</a> and am conducting research on <a href="research.html">drone sensor input-spoofing attacks</a>. 
-            I will be graduating from the University of Kansas in May 2020 and am currently exploring many different oppurtunities for what to do afterwards. I'm currently in the late stages of the application process for several different PhD programs, but 
-            am also open to full-time industry work if an ideal oppurtunity would present itself. As far as my interests go, I don't like to box myself in to just one area of computer science, as I find most of the problems within computer science interesting. 
-            However, if I had to pick my favorite areas those would currently be Security, Fintech, and Robotics. My long-term goals aren't set in stone yet, but I find I'm happiest when working on projects that I find meaningful, whether that be because I personally find them interesting or because of their ability to positively impact the lives of others.
-            I like to work on hard problems. I like to solve problems that haven't been solved before.
-            <br><br>
-            If you'd like to learn more about my current/past projects as well as my research, you can do so by clicking on the links in the navbar above. 
-        </p>
-        <br>
-        <h3 style="font-style: italic;">Recent Activities</h3>
-        <p id="recent-activities">Feb 9, 2020: Hack KU Best use of Xpring Tools Winner -<i><a href='https://devpost.com/software/xtack-said-stack'>See the project!</a></i><br>
-             <i>Also see the <a href="https://blog.xpring.io/rock-chalk-jay-hack-ku/">article</a> Xpring was nice enough to publish about us! </i>
-                <br>Oct 26, 2019: Gave talk at CANSec 2019 Workshop - <i>Characterizing Sensor Input Spoofing Attacks in UAV Control Software</i><br>
-        </p>
-        <br>
-        <!-- <h3 style="font-style: italic;">Development on Twitch</h3>
-        <p id="twitch">I've recently begun streaming some of the development of my personal software projects on Twitch. It might not be the most exciting thing in the world, but I plan to do it more so I've created a seperate channel just for this kind of content.</p>
-        <div id="twitch-embed">
+        <hr style="width: 48%;">
+        <div class="post">
+            <div class="title">
+                Welcome to my slice of the internet.
+            </div>
+            <img class="titleimage" src="assets/intro_image.jpg">
+            <div class="credit">
+                <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@claybanks?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Clay Banks"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Clay Banks</span></a>
+            </div>
+            <div class="paragraph">    
+            Hi, my name is Jacob Marshall. I am a researcher, a software engineer, and an undergraduate student at the <a href = "https://ku.edu">University of Kansas</a>. <br>
+            I am currently mentored and employed by <a href ="https://ittc.ku.edu/~drew/">Dr. Drew Davidson</a> as part of the <a href="http://ittc.ku.edu/padlock/">Padlock Research Laboratory</a> at KU and am conducting research on <a href="research.html">drone sensor input-spoofing attacks</a>. 
+            When I’m not studying or doing research, I have a variety of other <a href = "projects.html">personal projects</a> that keep me busy.<br><br>
+            Above all, I like working on hard problems. The ones that haven’t been solved before, and for good reason. I consider my interests within the realm of computer science to be pretty broad. I enjoy learning about the applications of software to financial markets. I’m curious about how we can continue to ensure that systems are made secure from attacks by ever-adapting adversaries. I want to find out how humans can better interact harmoniously with robotic systems. <br><br>
+            I am currently in the late stages of the application process for several PhD programs, but have also been on the lookout for top-of-the-line full-time positions in industry. I hope to have my future sorted out by the end of April.<br><br>
+            When I'm not in front of a computer screen, I immensely enjoy spending time outdoors, doing anything from soccer, to mountain biking, to hiking. I also enjoy playing board games and card games, and hope to become a better cook someday. <br><br>
+            If you'd like to learn more about me, check out my blog, projects, or research pages!
+            </div>
+        </div>
+        
 
-        </div> -->
-
-    </div>
-    
-
-<div>
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    <script type="text/javascript">
-        new Twitch.Embed("twitch-embed", {
-          width: 800,
-          height: 425,
-          channel: "marshingjay2"
-        });
-      </script>  
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</div>
-
-<div class = "footer-image">
-    <img src = "https://i.imgur.com/zBG4Ifi.jpg" />
-</div>
-</body>
+        
+        <br><br>
+    </body>
 </html>

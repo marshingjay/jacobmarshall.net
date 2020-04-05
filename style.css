@@ -1,84 +1,83 @@
 
 
-#infotext{
-    color: grey;
-    font-family: "Cambria";
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding-right: 40px;
 
+#banner {
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
-
-
-
-.wrapper{
-    align-items: stretch;
-}
-
-.main {
-    margin-left: 410px;
-}
-
-.sidenav {
-    overflow-y:auto;
-    width: 400px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    bottom: 0;
-    left: 0;
-    background-color: white; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    align-items: stretch;
-  }
-
-/* Add a black background color to the top navigation */
-.topnav {
-    font-family: "Cambria";
-    background-color:white;
-    overflow: hidden;
-    margin-left: 410px;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: grey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 26px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    color: slategray;
-    font-style: italic;
-    text-decoration: none;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    color: lightcoral;
-  }
 
 body{
-    margin: 15px;
-    position: relative;
-    min-height: 100vh;
+    margin: 0px;
 }
 
-#bodytext{
-    color: grey;
-    font-family: "Cambria";
+.post{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.title{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(102, 102, 102);
     margin-top: 20px;
-    transition: margin-left .5s;
-    margin-right: 40px;
-    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.credit{
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    
+}
+.date{
+    margin-top: 0px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(173, 173, 173);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.blurb{
+    font-style: italic;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(173, 173, 173);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.paragraph{
+    width: 70%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(102, 102, 102);
+}
+.titleimage{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.navbar{
+    margin-top: 5px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 1vw;
+    color: rgb(102, 102, 102);
+    
+}
+.navbar a{
+    color: rgb(102, 102, 102);
+    
 }
 a {
     text-decoration: none;
@@ -86,56 +85,4 @@ a {
 a:hover {
     font-style: italic;
     text-decoration: none !important;
-}
-
-
-
-
-#name{
-    margin-top: 15px;
-    font-size: 35px;
-}
-
-#email{
-    color: lightcoral;
-}
-
-#twitter{
-    color: lightcoral;
-}
-
-#resume{
-    color: lightcoral;
-}
-
-
-#info{
-   text-align: center;
-}
-
-#github{
-    color:lightcoral;
-}
-
-#LinkedIn{
-    color:lightcoral;
-}
-
-#recent-activities{
-    font-size: 18px;
-}
-
-.footer-image{
-    
-    overflow: hidden;
-    /* background-repeat: no-repeat; */
-    /* background-position: top left; */
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-}
-
-.footer-image > img {
-    margin-left: 400px;
 }

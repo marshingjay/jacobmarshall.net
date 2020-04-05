@@ -1,89 +1,99 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Jacob Marshall - Projects</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-    <div class = "topnav" id = "topbar">
-        <a href="index.html">Home</a>
-        <a class="active"  href="projects.html">Projects</a>
-        <a href="research.html">Research</a>
-        <a href="contact.html">Contact</a>
-    </div>
-    <hr>
-    <div class = "sidenav" id="infotext">
-        <img src="https://i.imgur.com/t55Wrhu.jpg" class ="rounded-circle" style="width:330px;height:330px;">
-        <p><div id="name">Jacob Marshall</div>
-        <a id="email" href="mailto:marshingjay@ku.edu">marshingjay@ku.edu</a></p>
-        <div id = "info">
-            <hr>
-            <p>
-            <a  id="github" href="https://github.com/marshingjay">GitHub</a> /
-            <a id="LinkedIn" href="https://www.linkedin.com/in/jacob-m-454ba310a">LinkedIn</a> /
-            <a id="twitter" href = "https://twitter.com/marshingjay">Twitter</a> /
-            <a id="resume" href = "https://docs.google.com/document/d/1CnVcgqrraSVbHCmAPucVZSm7JXLwc3jph56vEuGokq0/edit?usp=sharing">Resume</a></p>
-            <p id="pubs"></p>  
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.766700801058!2d-95.2663286839302!3d38.95215785131828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bf68d4b4175335%3A0xb8bf5cee04eac05b!2sNichols%20Hall!5e0!3m2!1sen!2sus!4v1569302778962!5m2!1sen!2sus" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            
-            <p id="address">2335 Irving Hill Rd, Room 149<br> Lawrence, KS 66045</p>
+
+    <head>
+        <meta charset="utf-8">
+       
+        <title>Jacob Marshall - Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img id="banner" src="assets/banner.jpg">
+        <div class =navbar>
+            <a></a>
+            <a href="index.html">Home</a> &middot
+            <a href="blog.html">Blog</a> &middot
+            <a href="projects.html">Projects</a> &middot
+            <a href="research.html">Research</a> &middot
+            <a href="contact.html">Contact</a>
+            &middot / &middot
+            <a href="https://github.com/marshingjay">GitHub</a> &middot
+            <a href="https://www.linkedin.com/in/jacob-m-454ba310a">LinkedIn</a> &middot
+            <a href = "https://twitter.com/marshingjay">Twitter</a> &middot
+            <a href = "https://docs.google.com/document/d/1CnVcgqrraSVbHCmAPucVZSm7JXLwc3jph56vEuGokq0/edit?usp=sharing">Resume</a>
+        </div>
+        <hr style="width: 48%;">
+        <div class="post">
+            <div class="title">
+                My Current Projects
+            </div>
+            <div class="blurb">
+                Projects I either don't consider to be completed, or plan on continuing to develop in the near future
+            </div>
+            <img class="titleimage" src="assets/axiom.jpg">
             <br>
-            <img src="https://i.imgur.com/TqFcME9.png" style="width:200px;">
+            <div class="paragraph">
+                I've always loved the card game <i><a href=https://boardgamegeek.com/boardgame/36218/dominion>Dominion</a></i>.
+                It offers a new game-play experience each and every game and rewards good sequencing and planning ahead. One day I decided that I would attempt to code up the game myself, so I could then try to 
+                program bots to play it. After that, I decided that I wanted to make it a public-facing platform for others to use to develop their own AI-powered Dominion bots. This project allows 
+                users to easily implement their own AI bots in a highly-configurable and modular setting, and test them via quickly simulating millions of games. I even implemented a few rudimentary bots
+                myself which are included in the codebase. I consider the project to be in a somewhat-completed, alpha-ish state but I plan on continuing to refine the platform in the future. Axiom is written in Python,
+                 with a focus on ease-of-use and code readability. <br><br>
+                <p>See the <a href="https://github.com/marshingjay/dominion-axiom">repo</a> on GitHub!</p>
+            </div>
+            <div class = "date">
+                February 2020 &middot Present
+            </div>
             <br>
+            <img class="titleimage" src="assets/hypewatch.jpg">
             <br>
-            <img src="https://i.imgur.com/SpWpM1X.png" style="width:200px;">
-        </div>
-    </div>
-    <br>
-    <div class="main" id = "bodytext">
-        
-        <h3 style="font-style: italic;">Current Projects</h3>
-        <div>
-            <img src="https://raw.githubusercontent.com/marshingjay/dominion-axiom/master/axiom_logo.PNG" style="height:65px;">
-            <p>An easy to use AI Platform for the board game <i><a href=https://boardgamegeek.com/boardgame/36218/dominion>Dominion</a></i> that allows for developers to implement their own AI to play the game and test them over a ridiculously large amount of games. Built with Python.</p>
-            <p>See the <a href="https://github.com/marshingjay/dominion-axiom">repo</a> on GitHub!</p>
-        </div>
-        <div>
-            <img src = "https://raw.githubusercontent.com/marshingjay/hype.watch/master/hype_watch_logo.PNG" style="height:65px;">
-            <p>A live tracker for short-term traders to detect hype-play short opportunities. Built with Python and Alpaca.</p>
-            <p>See the <a href="https://github.com/marshingjay/hype.watch">repo</a> on GitHub!</p>
-        </div>
-        <h3 style="font-style: italic;">Past Projects</h3>
-        <div>
-            <img src = "https://raw.githubusercontent.com/zatkins-dev/BitsPlease-FESP/project-4/assets/icon.png" style="height:65px;">
-            <p>Flat Earth Space Program (FESP) is a 2D space simulator created by Zachary Atkins, Gage Phillips, Thomas Gartman, and myself.
-                Players have a large sandbox, planets, and Newtonian physics at their disposal as they attempt to pilot a small rocket. 
-                Features include trajectory prediction, a custom rocket-builder system, simulated liquid/solid rockets, and much more!
-                FESP was built with python, and the pymunk (physics) and pygame libraries were heavily utilized.
-            </p>
-            <p>See the <a href="https://github.com/zatkins-dev/BitsPlease-FESP">repo</a> on GitHub!</p>
-        </div>
-        <div>
-            <img src = "https://raw.githubusercontent.com/marshingjay/jacobmarshall.net/master/100words.PNG" style="height:65px;">
-            <p>100Words is a mad-lib style web application that I developed alongside Gage Phillips, where users create a prompt for a story (100 words long exactly) that will be completed by 
+            <div class="paragraph">
+                I've recently become super interested in the application of software to financial markets, specifically to the stock market.
+                I decided to implement this tool to allow for users to be alerted when a stock price is up massively, and when it begins to go down again, allowing for a high amount of configuration on the user's part.
+                I'm very, very interested in algorithm trading, and I hope this project serves as a stepping stone to that while allowing me to gain familiarity with stock market APIs and working with prices and other data in an automated setting.
+                I eventually hope this into a web-app so that others may use it without running a script. Hype.watch is currently being developed using Python, and utilizes the Alpaca API to access minute-to-minute stock-market data.
+                <br><br>
+                <p>See the <a href="https://github.com/marshingjay/hype.watch">repo</a> on GitHub!</p>
+            </div>
+            <div class = "date">
+                April 2020 &middot Present
+            </div>
+            <hr style="width: 70%;">
+            <div class="title">
+                My Past Projects
+            </div>
+            <div class="blurb">
+                Projects I either consider to be completed, or don't plan on working on any more.
+            </div>
+            <img class="titleimage" src="assets/100words.jpg">
+            <br>
+            <div class="paragraph">
+                100Words is a mad-lib style web application that I developed alongside Gage Phillips for our Databases class, where users create a prompt for a story (100 words long exactly) that will be completed by 
                 users all over the globe, each user submitting a single word. This application is no longer hosted because we are poor undergraduate students,
                 but the repo is still available!
-            </p>
-            <p>See the <a href="https://github.com/">repo</a> on GitHub!</p>
+                <br><br>
+                <p>See the <a href="https://github.com/marshingjay/">repo</a> on GitHub!</p>
+            </div>
+            <div class = "date">
+                April 2019 &middot May 2019
+            </div>
+            <br>
+            <img class="titleimage" src="assets/fesp.jpg">
+            <br>
+            <div class="paragraph">
+                Flat Earth Space Program (FESP) is a 2D space simulator created by Zachary Atkins, Gage Phillips, Thomas Gartman, and myself for our Software Engineering class.
+                Players have a large sandbox, planets, and Newtonian physics at their disposal as they attempt to pilot a small rocket. 
+                Features include trajectory prediction, a custom rocket-builder system, simulated liquid/solid rockets, and much more!
+                FESP was built with Python, and the pymunk (physics) and pygame libraries were heavily utilized.
+                <br><br>
+                <p>See the <a href="https://github.com/zatkins-dev/BitsPlease-FESP">repo</a> on GitHub!</p>
+            </div>
+            <div class = "date">
+                October 2018 &middot December 2018
+            </div>
+
         </div>
-        <br>
-        <h3 style="font-style: italic;">What I'm Currently Learning About</h3>
-        <p>
-            I'm always tring to hone my skills and expand my skillset as a developer and researcher. I believe knowledge of the ins and outs of web development are important for any developer in this day and age, from the bottom of the stack to the top, so I am currently enrolled 
-            in an online course outside of my actual coursework in order to sharpen my web development skills. I've also become fascinated by the stock market lately, and have been learning more about investing, options, and algorithm trading.
-        </p>
-
-    </div>
-
-<div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</div>
-<div class = "footer-image">
-    <img src = "https://i.imgur.com/zBG4Ifi.jpg" />
-</div>
-</body>
+        <br><br>
+    </body>
 </html>
