@@ -86,3 +86,28 @@ a:hover {
     font-style: italic;
     text-decoration: none !important;
 }
+
+@media only screen and (max-width: 600px){
+    .titleimage{
+        width: 100%;
+    }
+    .paragraph{
+        width: 100%;
+    }
+    .navbar{
+        font-size: 1.5vh;
+    }
+    .blurb{
+        width: 100%;
+    }
+    .date{
+        width: 100%;
+    }
+    .credit{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+
+}
