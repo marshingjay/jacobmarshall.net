@@ -41,7 +41,7 @@
             By gaining control over some aspect of the environment, the adversary could influence one of the many different environmental sensors on a UAV. 
             Through SITL simulation running ArduPilot source, we&#146;ve been able to verify that not only are these attacks possible, but that they have the potential to cause catastrophic failure. 
             Our attack models show that if a malicious actor had proper knowledge of ArduPilot and control over certain environmental factors, they could crash, disrupt, or even gain some amount of control over a UAV. 
-            This vulnerability boils down to a lack of sensor fusion between orthogonal sensors. 
+            This vulnerability boils down to a lack of sensor confirmation between orthogonal sensors. 
             That is, the sensors on a UAV aren&#146;t cross-validating input between sensors of a different type if the given input is acceptable, and as a result are vulnerable to receiving malicious input.
             We strongly suggest that new threat models be introduced that account for adversaries with this type of environmental control and are currently working on software and analysis solutions in order to help mitigate this model of attack.
             Personally, I've been heavily involved in both the reverse-engineering of Ardupilot as well as static code analysis using a mixture of LLVM and Python scripts.<br><br>
